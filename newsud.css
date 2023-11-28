@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.cells{
+    width: 45px;
+    height: 45px;
+    background-color:azure;
+    border: 1px solid black;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#boxcont{
+    display: flex;
+    flex-direction: row;
+    width: 426px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#cont{
+    width: 100%;
+}
+.blueback{
+    background-color: rgb(27, 174, 210);
+}
+.bluecol{
+    color: blue;
+}
+.redcol{
+    color: red;
+}
+#btns{
+    width: fit-content;
+    margin: auto;
+}
+.btn{
+    width: 35px;
+    height: 35px;
+    margin:20px 8px;
+    font-size: larger;
+}
+#last{
+    width: fit-content;
+    margin: auto;
+}
+#next{
+    width: 90px;
+    height: 30px;
+    padding: 5px;
+}
